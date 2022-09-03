@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		34DDDE8A28C2F4E00000EA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDE8928C2F4E00000EA89 /* AppDelegate.swift */; };
 		34DDDE8C28C2F4E00000EA89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDE8B28C2F4E00000EA89 /* SceneDelegate.swift */; };
-		34DDDE8E28C2F4E00000EA89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDE8D28C2F4E00000EA89 /* ViewController.swift */; };
-		34DDDE9128C2F4E00000EA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DDDE8F28C2F4E00000EA89 /* Main.storyboard */; };
 		34DDDE9328C2F4E00000EA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DDDE9228C2F4E00000EA89 /* Assets.xcassets */; };
 		34DDDE9628C2F4E00000EA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DDDE9428C2F4E00000EA89 /* LaunchScreen.storyboard */; };
 		34DDDEA128C2F4E00000EA89 /* UpperSoftChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDEA028C2F4E00000EA89 /* UpperSoftChallengeTests.swift */; };
 		34DDDEAB28C2F4E00000EA89 /* UpperSoftChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDEAA28C2F4E00000EA89 /* UpperSoftChallengeUITests.swift */; };
 		34DDDEAD28C2F4E00000EA89 /* UpperSoftChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDEAC28C2F4E00000EA89 /* UpperSoftChallengeUITestsLaunchTests.swift */; };
+		34DDDEBD28C2F9CA0000EA89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDEBC28C2F9CA0000EA89 /* HomeViewController.swift */; };
+		34DDDEC228C3039C0000EA89 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDEC128C3039C0000EA89 /* MainCoordinator.swift */; };
+		34DDDEC428C30C5A0000EA89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDEC328C30C5A0000EA89 /* HomeView.swift */; };
+		34DDDEC728C30D8E0000EA89 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDEC628C30D8E0000EA89 /* BaseView.swift */; };
+		34DDDECB28C315790000EA89 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDECA28C315790000EA89 /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		34DDDE8628C2F4E00000EA89 /* UpperSoftChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpperSoftChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DDDE8928C2F4E00000EA89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34DDDE8B28C2F4E00000EA89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34DDDE8D28C2F4E00000EA89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		34DDDE9028C2F4E00000EA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34DDDE9228C2F4E00000EA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34DDDE9528C2F4E00000EA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34DDDE9728C2F4E00000EA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		34DDDEA628C2F4E00000EA89 /* UpperSoftChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpperSoftChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DDDEAA28C2F4E00000EA89 /* UpperSoftChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperSoftChallengeUITests.swift; sourceTree = "<group>"; };
 		34DDDEAC28C2F4E00000EA89 /* UpperSoftChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperSoftChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34DDDEBC28C2F9CA0000EA89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		34DDDEC128C3039C0000EA89 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		34DDDEC328C30C5A0000EA89 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		34DDDEC628C30D8E0000EA89 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		34DDDECA28C315790000EA89 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,11 @@
 		34DDDE8828C2F4E00000EA89 /* UpperSoftChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				34DDDEC528C30D1C0000EA89 /* Extensions */,
+				34DDDEBB28C2F9830000EA89 /* Scenes */,
+				34DDDEB928C2F9040000EA89 /* Resources */,
 				34DDDE8928C2F4E00000EA89 /* AppDelegate.swift */,
 				34DDDE8B28C2F4E00000EA89 /* SceneDelegate.swift */,
-				34DDDE8D28C2F4E00000EA89 /* ViewController.swift */,
-				34DDDE8F28C2F4E00000EA89 /* Main.storyboard */,
-				34DDDE9228C2F4E00000EA89 /* Assets.xcassets */,
-				34DDDE9428C2F4E00000EA89 /* LaunchScreen.storyboard */,
 				34DDDE9728C2F4E00000EA89 /* Info.plist */,
 			);
 			path = UpperSoftChallenge;
@@ -125,6 +130,42 @@
 				34DDDEAC28C2F4E00000EA89 /* UpperSoftChallengeUITestsLaunchTests.swift */,
 			);
 			path = UpperSoftChallengeUITests;
+			sourceTree = "<group>";
+		};
+		34DDDEB928C2F9040000EA89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34DDDE9228C2F4E00000EA89 /* Assets.xcassets */,
+				34DDDE9428C2F4E00000EA89 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34DDDEBB28C2F9830000EA89 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				34DDDEC028C2FE0A0000EA89 /* Home */,
+				34DDDEC128C3039C0000EA89 /* MainCoordinator.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		34DDDEC028C2FE0A0000EA89 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				34DDDEBC28C2F9CA0000EA89 /* HomeViewController.swift */,
+				34DDDEC328C30C5A0000EA89 /* HomeView.swift */,
+				34DDDECA28C315790000EA89 /* HomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		34DDDEC528C30D1C0000EA89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				34DDDEC628C30D8E0000EA89 /* BaseView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +274,6 @@
 			files = (
 				34DDDE9628C2F4E00000EA89 /* LaunchScreen.storyboard in Resources */,
 				34DDDE9328C2F4E00000EA89 /* Assets.xcassets in Resources */,
-				34DDDE9128C2F4E00000EA89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34DDDE8E28C2F4E00000EA89 /* ViewController.swift in Sources */,
 				34DDDE8A28C2F4E00000EA89 /* AppDelegate.swift in Sources */,
+				34DDDEC228C3039C0000EA89 /* MainCoordinator.swift in Sources */,
+				34DDDECB28C315790000EA89 /* HomeTableViewCell.swift in Sources */,
 				34DDDE8C28C2F4E00000EA89 /* SceneDelegate.swift in Sources */,
+				34DDDEC428C30C5A0000EA89 /* HomeView.swift in Sources */,
+				34DDDEBD28C2F9CA0000EA89 /* HomeViewController.swift in Sources */,
+				34DDDEC728C30D8E0000EA89 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		34DDDE8F28C2F4E00000EA89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34DDDE9028C2F4E00000EA89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		34DDDE9428C2F4E00000EA89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,11 +473,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9YX379AKD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UpperSoftChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UpperSoftChallenge;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,7 +491,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,11 +502,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9YX379AKD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UpperSoftChallenge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UpperSoftChallenge;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
