@@ -17,13 +17,24 @@ protocol Coordinator {
 class MainCoordinator: Coordinator {
 	var childCoordinators = [Coordinator]()
 	var navigationController: UINavigationController
+	let service: DefaultNetworkService = DefaultNetworkService()
 	
 	init(navigationController: UINavigationController) {
 		self.navigationController = navigationController
 	}
 	
 	func start() {
-		let vc = HomeViewController()
-		navigationController.pushViewController(vc, animated: false)
+		let viewModel = HomeViewModel(service: service,
+																	navigation: self)
+		let viewController = HomeViewController(viewModel: viewModel)
+		navigationController.pushViewController(viewController, animated: false)
+	}
+}
+
+extension MainCoordinator: HomeViewNavigationDelegate {
+	func navigateToDetails(model: Cat) {
+		let viewModel = DetailsViewModel(model: model)
+		let viewController = DetailsViewController(viewModel: viewModel)
+		navigationController.pushViewController(viewController, animated: true)
 	}
 }
